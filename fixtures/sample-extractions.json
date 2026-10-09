@@ -1,0 +1,135 @@
+[
+  {
+    "fileName": "KBAS-NB-26-0912_Commercial_Invoice.pdf",
+    "documentType": "commercial_invoice",
+    "extractionNotes": ["Hand-transcribed from the sample shipment (fixture), not model output."],
+    "invoice": {
+      "invoiceNumber": "KBAS/NB/26-0912",
+      "invoiceDateRaw": "12/09/2026",
+      "invoiceDateIso": "2026-09-12",
+      "seller": { "name": "KOWLOON BAY APPAREL SOURCING LIMITED", "address": "Unit 1708, 17/F, Hing Fat Industrial Building, 223 Wai Yip Street, Kwun Tong, Kowloon, Hong Kong", "country": "Hong Kong", "taxId": null },
+      "buyer": { "name": "NORTHBOUND OUTFITTERS, INC.", "address": "2150 NW Raleigh Street, Suite 300, Portland, OR 97210, U.S.A.", "country": "US", "taxId": null },
+      "shipTo": { "name": "CASCADE FULFILLMENT PARTNERS LLC", "address": "21820 76th Avenue South, Dock 4, Kent, WA 98032, U.S.A.", "country": "US", "taxId": null },
+      "poNumber": "NB-26-0918",
+      "incoterm": "CIF TACOMA, WA (INCOTERMS 2020)",
+      "paymentTerms": "T/T 30 DAYS AFTER B/L DATE",
+      "currency": "USD",
+      "portOfLoading": "CAT LAI, HO CHI MINH CITY, VN",
+      "portOfDischarge": "TACOMA, WA, U.S.A.",
+      "vessel": "PACIFIC ARGOS",
+      "voyage": "041E",
+      "blNumber": "BMLVHCM26090418",
+      "etdRaw": "24-SEP-2026",
+      "etaRaw": "14-OCT-2026",
+      "etaIso": "2026-10-14",
+      "countryOfOrigin": "VIETNAM",
+      "lines": [
+        { "lineNo": 1, "styleNo": "NB-T101", "description": "MEN'S CREW NECK SHORT SLEEVE T-SHIRT", "composition": "100% Cotton single jersey, 160 GSM, knitted", "hsCode": "6109.10", "quantity": 2400, "unit": "PCS", "unitPrice": 2.85, "amount": 6480.00, "isSample": false, "noCommercialValue": false, "customsValueUnit": null, "customsValueTotal": null, "originNote": null, "notes": null },
+        { "lineNo": 2, "styleNo": "NB-H205", "description": "WOMEN'S PULLOVER HOODIE W/ KANGAROO POCKET", "composition": "60% Cotton 40% Polyester brushed fleece, 280 GSM, knitted", "hsCode": "6110.20", "quantity": 1200, "unit": "PCS", "unitPrice": 7.40, "amount": 8880.00, "isSample": false, "noCommercialValue": false, "customsValueUnit": null, "customsValueTotal": null, "originNote": null, "notes": null },
+        { "lineNo": 3, "styleNo": "NB-C330", "description": "MEN'S SLIM FIT CHINO TROUSERS", "composition": "98% Cotton 2% Elastane stretch twill, 245 GSM, woven", "hsCode": "6203.42", "quantity": 900, "unit": "PCS", "unitPrice": 6.95, "amount": 6255.00, "isSample": false, "noCommercialValue": false, "customsValueUnit": null, "customsValueTotal": null, "originNote": null, "notes": null },
+        { "lineNo": 4, "styleNo": "W-B220", "description": "WOMEN'S LONG SLEEVE BLOUSE, V-NECK", "composition": "100% Polyester crepe de chine, woven", "hsCode": "6206.40", "quantity": 600, "unit": "PCS", "unitPrice": 2.10, "amount": 1260.00, "isSample": false, "noCommercialValue": false, "customsValueUnit": null, "customsValueTotal": null, "originNote": null, "notes": "CMT price only; main fabric supplied free of charge by buyer (see note *)" },
+        { "lineNo": 5, "styleNo": "NB-P118S", "description": "WOMEN'S SHORT SLEEVE POLO SHIRT - SAMPLES", "composition": "100% Cotton pique, knitted", "hsCode": "6106.10", "quantity": 24, "unit": "PCS", "unitPrice": null, "amount": null, "isSample": true, "noCommercialValue": true, "customsValueUnit": 1.00, "customsValueTotal": 24.00, "originNote": "Bangladesh", "notes": "FOC SAMPLES - NO COMMERCIAL VALUE. Value for customs purpose only USD 1.00/pc" }
+      ],
+      "subtotalCarriedForward": 21975.00,
+      "totalFob": 23235.00,
+      "freight": 3850.00,
+      "insurance": 185.00,
+      "totalCif": 27270.00,
+      "totalQuantity": 5100,
+      "totalPackages": 138,
+      "assists": [
+        { "description": "Main fabric, 100% polyester crepe de chine, 1,450 m, supplied free of charge by buyer", "value": 4180.00, "currency": "USD", "reference": "buyer P.O. NB-26-0918F", "appliesToStyle": "W-B220" }
+      ],
+      "notes": [
+        "Item 5 samples are free of charge, not for resale, value stated for customs purpose only and not included in invoice total.",
+        "Goods manufactured and shipped by contracted factory in Binh Duong, Vietnam."
+      ]
+    },
+    "packingList": null,
+    "billOfLading": null
+  },
+  {
+    "fileName": "SPG-PL-2609-117_Packing_List.pdf",
+    "documentType": "packing_list",
+    "extractionNotes": ["Hand-transcribed from the sample shipment (fixture), not model output."],
+    "invoice": null,
+    "packingList": {
+      "packingListNumber": "SPG-PL-2609-117",
+      "dateRaw": "20-Sep-2026",
+      "shipper": { "name": "SAIGON PHOENIX GARMENT JSC", "address": "Lot C7-C8, Road No. 9, Song Than 2 Industrial Park, Di An Ward, Di An City, Binh Duong Province, Vietnam (on behalf of Kowloon Bay Apparel Sourcing Ltd.)", "country": "VN", "taxId": null },
+      "consignee": { "name": "NORTHBOUND OUTFITTERS, INC.", "address": "2150 NW Raleigh St., Suite 300, Portland, OR 97210, USA; deliver to Cascade Fulfillment Partners LLC, 21820 76th Ave S, Kent, WA 98032", "country": "US", "taxId": null },
+      "invoiceRef": "KBAS/NB/26-0912",
+      "poNumber": "NB-26-0918",
+      "vessel": "PACIFIC ARGOS",
+      "voyage": "041E",
+      "lines": [
+        { "cartonRange": "1-48", "styleNo": "NB-T101", "description": "MEN'S CREW NECK S/S TEE 100% COTTON JERSEY 160GSM", "cartons": 48, "pcsPerCarton": 50, "totalPcs": 2400, "netKgPerCarton": 9.00, "grossKgPerCarton": 10.00, "totalNetKg": 432.00, "totalGrossKg": 480.00, "cartonDimensionsCm": "60x40x35" },
+        { "cartonRange": "49-97", "styleNo": "NB-H205", "description": "LADIES PULLOVER HOODIE TC 65/35 FLEECE 280GSM", "cartons": 49, "pcsPerCarton": 24, "totalPcs": 1176, "netKgPerCarton": 14.60, "grossKgPerCarton": 15.80, "totalNetKg": 715.40, "totalGrossKg": 774.20, "cartonDimensionsCm": "60x45x45" },
+        { "cartonRange": "98-127", "styleNo": "NB-C330", "description": "MEN'S SLIM CHINO PANT 98/2 COTTON/SPANDEX TWILL", "cartons": 30, "pcsPerCarton": 30, "totalPcs": 900, "netKgPerCarton": 16.20, "grossKgPerCarton": 17.40, "totalNetKg": 486.00, "totalGrossKg": 522.00, "cartonDimensionsCm": "60x40x40" },
+        { "cartonRange": "128-137", "styleNo": "W-B220", "description": "LADIES L/S V-NECK BLOUSE 100% POLY CREPE (BUYER FABRIC)", "cartons": 10, "pcsPerCarton": 60, "totalPcs": 600, "netKgPerCarton": 9.60, "grossKgPerCarton": 10.60, "totalNetKg": 96.00, "totalGrossKg": 106.00, "cartonDimensionsCm": "55x40x30" },
+        { "cartonRange": "138", "styleNo": "NB-P118S", "description": "LADIES POLO - SAMPLES (FOC) 100% COTTON PIQUE", "cartons": 1, "pcsPerCarton": 24, "totalPcs": 24, "netKgPerCarton": 5.10, "grossKgPerCarton": 5.80, "totalNetKg": 5.10, "totalGrossKg": 5.80, "cartonDimensionsCm": "50x35x30" }
+      ],
+      "totalCartons": 138,
+      "totalPcs": 5100,
+      "totalNetKg": 1734.50,
+      "totalGrossKg": 1888.00,
+      "totalCbm": 13.58,
+      "originNotes": [
+        { "styleNo": "NB-P118S", "country": "Bangladesh", "manufacturerName": "SP Garments Dhaka Ltd.", "manufacturerAddress": "Plot 41, Gazipur, Bangladesh", "note": "Carton 138: FOC samples produced at sister unit SP Garments Dhaka Ltd., Plot 41, Gazipur, Bangladesh. Made in Bangladesh. Hand-carried to Cat Lai CFS for consolidation." },
+        { "styleNo": "W-B220", "country": null, "manufacturerName": null, "manufacturerAddress": null, "note": "Style W-B220 sewn from buyer-supplied fabric (Ref. NB-26-0918F)." }
+      ],
+      "remarks": [
+        "All cartons 5-ply export cartons, strapped, palletized: NO.",
+        "Style W-B220 sewn from buyer-supplied fabric (Ref. NB-26-0918F).",
+        "Carton No. 138: FOC samples (ladies polo NB-P118S) produced at sister unit SP Garments Dhaka Ltd., Plot 41, Gazipur, Bangladesh. Made in Bangladesh. Hand-carried to Cat Lai CFS for consolidation.",
+        "Seal no. per B/L."
+      ]
+    },
+    "billOfLading": null
+  },
+  {
+    "fileName": "BMLVHCM26090418_House_BL.pdf",
+    "documentType": "bill_of_lading",
+    "extractionNotes": ["Hand-transcribed from the sample shipment (fixture), not model output.", "Container number is printed, struck through, and hand-corrected."],
+    "invoice": null,
+    "packingList": null,
+    "billOfLading": {
+      "blNumber": "BMLVHCM26090418",
+      "carrierName": "BLUE MERIDIAN LOGISTICS (VIETNAM) CO., LTD.",
+      "carrierScac": "BMLV",
+      "masterBl": "OPLUSGN260917735",
+      "oceanCarrierName": "ORIENT PACIFIC LINES",
+      "oceanCarrierScac": "OPLU",
+      "bookingNo": "BMLVHCM2609-0377",
+      "shipper": { "name": "SAIGON PHOENIX GARMENT JSC", "address": "LOT C7-C8, ROAD NO. 9, SONG THAN 2 IP, DI AN CITY, BINH DUONG, VIETNAM; O/B KOWLOON BAY APPAREL SOURCING LTD, KWUN TONG, KOWLOON, HONG KONG", "country": "VN", "taxId": null },
+      "consignee": { "name": "CASCADE FULFILLMENT PARTNERS LLC", "address": "21820 76TH AVENUE SOUTH, DOCK 4, KENT, WA 98032, USA", "country": "US", "taxId": null },
+      "notifyParty": { "name": "NORTHBOUND OUTFITTERS, INC.", "address": "2150 NW RALEIGH ST, SUITE 300, PORTLAND, OR 97210, USA; ALSO NOTIFY: CUSTOMS BROKER (TBA)", "country": "US", "taxId": null },
+      "vessel": "PACIFIC ARGOS",
+      "voyage": "041E",
+      "placeOfReceipt": "SONG THAN, BINH DUONG",
+      "portOfLoading": "CAT LAI, HCMC, VN",
+      "portOfDischarge": "TACOMA, WA, USA",
+      "placeOfDelivery": "KENT, WA (DOOR)",
+      "containers": [
+        { "numberPrinted": "OPLU3041728", "numberHandwritten": "OPLU3041722", "handwrittenLegible": false, "seal": "OPL7731482", "sizeType": "1 X 20'GP" }
+      ],
+      "packages": 138,
+      "packageUnit": "CARTONS",
+      "grossWeightKg": 1930.0,
+      "measurementCbm": 13.58,
+      "descriptionOfGoods": "WEARING APPAREL - MEN'S AND LADIES' KNIT AND WOVEN GARMENTS (T-SHIRTS, HOODIES, TROUSERS, BLOUSES, POLO SAMPLES)",
+      "hsCodes": ["6109.10", "6110.20", "6203.42", "6206.40", "6106.10"],
+      "invoiceRef": "KBAS/NB/26-0912",
+      "poRef": "NB-26-0918",
+      "madeIn": "VIETNAM",
+      "freightTerms": "Ocean freight and origin THC prepaid; destination charges collect",
+      "issueDateRaw": "24-SEP-2026",
+      "issueDateIso": "2026-09-24",
+      "shippedOnBoardIso": "2026-09-24",
+      "releaseNote": "TELEX RELEASED - originals surrendered at origin 25-SEP-2026 BML-HCM",
+      "isfFiledBy": "IMPORTER/AGENT",
+      "amsFiledBy": "BLUE MERIDIAN",
+      "handwrittenNotes": ["Container number OPLU3041728 struck through; handwritten correction reads approximately 'OPLU 304172 2'."]
+    }
+  }
+]

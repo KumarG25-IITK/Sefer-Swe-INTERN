@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.netchb.com/xml/entry">
+  <entry-no>
+    <system-generated/>
+  </entry-no>
+  <header>
+    <importer-name>NORTHBOUND OUTFITTERS, INC.</importer-name>
+    <ultimate-consignee>
+      <consignee-name>NORTHBOUND OUTFITTERS, INC.</consignee-name>
+    </ultimate-consignee>
+    <processing-port>3002</processing-port>
+    <entry-port>3002</entry-port>
+    <entry-date>2026-10-14</entry-date>
+    <entry-type>01</entry-type>
+    <charges>4035</charges>
+    <gross-weight>1930</gross-weight>
+    <total-entry-value>23259</total-entry-value>
+    <description>WEARING APPAREL - MEN&apos;S AND LADIES&apos; KNIT AND WOVEN GARMENTS</description>
+    <state-destination>WA</state-destination>
+    <vessel-name>PACIFIC ARGOS</vessel-name>
+    <mode-transportation>11</mode-transportation>
+    <unlading-port>3002</unlading-port>
+    <arrival-date>2026-10-14</arrival-date>
+    <carrier-code>OPLU</carrier-code>
+    <customer-reference-no>NB-26-0918</customer-reference-no>
+    <voyage-no>041E</voyage-no>
+  </header>
+  <manifest>
+    <bill-of-lading>
+      <master-scac>OPLU</master-scac>
+      <master-bill>SGN260917735</master-bill>
+      <house-scac>BMLV</house-scac>
+      <house-bill>HCM26090418</house-bill>
+      <quantity>138</quantity>
+      <unit>CTN</unit>
+    </bill-of-lading>
+  </manifest>
+  <containers>
+    <container>
+      <container-number>OPLU3041722</container-number>
+      <container-size>20 ft</container-size>
+      <container-type>Dry</container-type>
+      <seal-numbers>OPL7731482</seal-numbers>
+    </container>
+  </containers>
+  <invoices>
+    <invoice>
+      <invoice-no>KBASNB26-0912</invoice-no>
+      <line-items>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <gross-weight>480</gross-weight>
+          <tariffs>
+            <tariff>
+              <tariff-no>610910</tariff-no>
+              <value>6840.00</value>
+            </tariff>
+          </tariffs>
+          <commercial-description>MEN&apos;S CREW NECK SHORT SLEEVE T-SHIRT, 100% COTTON SINGLE JERSEY, 160 GSM, KNITTED</commercial-description>
+          <invoice-quantity>2400</invoice-quantity>
+        </line-item>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <gross-weight>774</gross-weight>
+          <tariffs>
+            <tariff>
+              <tariff-no>611020</tariff-no>
+              <value>8880.00</value>
+            </tariff>
+          </tariffs>
+          <commercial-description>WOMEN&apos;S PULLOVER HOODIE W/ KANGAROO POCKET, 60% COTTON 40% POLYESTER BRUSHED FLEECE, 280 GSM, KNITTED</commercial-description>
+          <invoice-quantity>1200</invoice-quantity>
+        </line-item>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <gross-weight>522</gross-weight>
+          <tariffs>
+            <tariff>
+              <tariff-no>620342</tariff-no>
+              <value>6255.00</value>
+            </tariff>
+          </tariffs>
+          <commercial-description>MEN&apos;S SLIM FIT CHINO TROUSERS, 98% COTTON 2% ELASTANE STRETCH TWILL, 245 GSM, WOVEN</commercial-description>
+          <invoice-quantity>900</invoice-quantity>
+        </line-item>
+        <line-item>
+          <country-origin>VN</country-origin>
+          <gross-weight>106</gross-weight>
+          <tariffs>
+            <tariff>
+              <tariff-no>620640</tariff-no>
+              <value>1260.00</value>
+            </tariff>
+          </tariffs>
+          <commercial-description>WOMEN&apos;S LONG SLEEVE BLOUSE, V-NECK, 100% POLYESTER CREPE DE CHINE, WOVEN</commercial-description>
+          <invoice-quantity>600</invoice-quantity>
+        </line-item>
+        <line-item>
+          <country-origin>BD</country-origin>
+          <gross-weight>6</gross-weight>
+          <tariffs>
+            <tariff>
+              <tariff-no>610610</tariff-no>
+              <value>24.00</value>
+            </tariff>
+          </tariffs>
+          <commercial-description>WOMEN&apos;S SHORT SLEEVE POLO SHIRT - SAMPLES, 100% COTTON PIQUE, KNITTED</commercial-description>
+          <invoice-quantity>24</invoice-quantity>
+        </line-item>
+      </line-items>
+    </invoice>
+  </invoices>
+</entry>
